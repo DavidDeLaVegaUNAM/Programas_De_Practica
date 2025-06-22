@@ -1,2 +1,5 @@
-# Programas_De_Practica
-En este repositorio hay una serie de scripts hechos en Python3, hechos inicialmente para las materias de Análisis de Algoritmos I e Inteligencia Artificial para lo que fue el semestre 2024-2. El propósito es mostrar los distintos algoritmos, el como fueron aplicados y su uso.
+# Mi portafolio
+
+¡Bienvenidos a mi portafolio!, sobre este repositorio encontrarás distintos proyectos que he hecho  lo largo de la carrera, manejo de algoritmos como manejo de datos, etc.
+
+
