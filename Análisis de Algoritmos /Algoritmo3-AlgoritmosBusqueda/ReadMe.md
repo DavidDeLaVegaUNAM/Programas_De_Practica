@@ -90,19 +90,19 @@ graph LR
 ### Ejemplos de Salida
 
 ### Inserción Local (entrada: `5 3 8 1`)
-```
+
 !["Vista del Programa al eligir Tree Sort"][/workspaces/Programas_De_Practica/Análisis de Algoritmos /Algoritmo3-AlgoritmosBusqueda/Images/InsercionLoc.png]
-```
+
 
 #### Tree Sort (entrada: `5 3 8 1`)
-```
+
 !["Vista del Programa al eligir Tree Sort"][/workspaces/Programas_De_Practica/Análisis de Algoritmos /Algoritmo3-AlgoritmosBusqueda/Images/OrdArb.png]
-```
+
 
 #### Radix LSD (entrada: `A3 1F 2B`)
-```
+
 !["Vista del Programa al eligir Tree Sort"][/workspaces/Programas_De_Practica/Análisis de Algoritmos /Algoritmo3-AlgoritmosBusqueda/Images/Radix.png]
- ```
+ 
 ---
 
 ### Características Clave
