@@ -1,7 +1,7 @@
 ### Documentación del Programa de Azulejado con Trominos
 
 #### Descripción
-Este programa resuelve el problema de **azulejado con trominos** utilizando un enfoque recursivo de divide y vencerás. El objetivo es cubrir una cuadrícula de tamaño $2^{n}\times2^{n}$ con piezas en forma de "L" (trominos), dejando exactamente un hueco vacío. La solución incluye:
+Este programa resuelve el problema de **adoquinamiento con trominos** utilizando un enfoque recursivo de divide y vencerás. El objetivo es cubrir una cuadrícula de tamaño $2^{n}\times2^{n}$ con piezas en forma de "L" (trominos), dejando exactamente un hueco vacío. La solución incluye:
 - Implementación del algoritmo recursivo
 - Generación de cuadrículas con huecos aleatorios
 - Visualización gráfica de los resultados
