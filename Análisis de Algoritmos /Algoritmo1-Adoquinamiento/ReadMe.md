@@ -1,7 +1,7 @@
 ### Documentación del Programa de Azulejado con Trominos
 
 #### Descripción
-Este programa resuelve el problema de **azulejado con trominos** utilizando un enfoque recursivo de divide y vencerás. El objetivo es cubrir una cuadrícula de tamaño `2^n x 2^n` con piezas en forma de "L" (trominos), dejando exactamente un hueco vacío. La solución incluye:
+Este programa resuelve el problema de **azulejado con trominos** utilizando un enfoque recursivo de divide y vencerás. El objetivo es cubrir una cuadrícula de tamaño $2^{n}\times2^{n}$ con piezas en forma de "L" (trominos), dejando exactamente un hueco vacío. La solución incluye:
 - Implementación del algoritmo recursivo
 - Generación de cuadrículas con huecos aleatorios
 - Visualización gráfica de los resultados
@@ -22,7 +22,7 @@ Ejecute desde la terminal:
 ```
 python3 main.py <exponente>
 ```
-- **`<exponente>`**: Entero ≥ 1 que define el tamaño de la cuadrícula (`tamaño = 2^exponente`)
+- **`<exponente>`**: Entero $\geq1$ que define el tamaño de la cuadrícula (`tamaño = 2^exponente`)
 
 **Ejemplo** para una cuadrícula 8x8:
 ```
@@ -33,13 +33,13 @@ python3 main.py 3
 
 #### Explicación del Algoritmo
 1. **Inicialización**:
-   - Crea una cuadrícula `2^n x 2^n` inicializada con ceros.
-   - Selecciona aleatoriamente una celda vacía (marcada con `-1`).
+   - Crea una cuadrícula $2^n \times 2^n$ inicializada con ceros.
+   - Selecciona aleatoriamente una celda vacía (marcada con -1).
 
 2. **Función Principal `azulejar_cuadricula`**:
-   - **Caso Base**: Si `n = 2`, cubre directamente las 3 celdas restantes.
+   - **Caso Base**: Si $n = 2$, cubre directamente las 3 celdas restantes.
    - **Paso Recursivo**:
-     1. Divide la cuadrícula en 4 cuadrantes de tamaño `n/2`.
+     1. Divide la cuadrícula en 4 cuadrantes de tamaño $n/2$.
      2. Identifica el cuadrante que contiene la celda vacía.
      3. Coloca un tromino central que cubre una celda en cada uno de los otros 3 cuadrantes.
      4. Llama recursivamente a la función para los 4 cuadrantes.
@@ -80,6 +80,7 @@ El resultado se muestra con `matplotlib`:
 - Cada tromino tiene un color único.
 - La celda vacía se marca con una `X`.
 - Ejemplo para 8x8:
+![alt text](/Análisis%20de%20Algoritmos%20/Algoritmo1-Adoquinamiento/Images/Ejemplo8x8.png)
 
 
 ---
