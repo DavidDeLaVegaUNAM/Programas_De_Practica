@@ -79,8 +79,9 @@ graph TD
 El resultado se muestra con `matplotlib`:
 - Cada tromino tiene un color único.
 - La celda vacía se marca con una `X`.
-- Ejemplo para 8x8:
-![alt text](/Análisis%20de%20Algoritmos%20/Algoritmo1-Adoquinamiento/Images/Ejemplo8x8.png)
+Para visualizar esto, aquí un ejemplo de una cuadrícula $8\times8$
+
+![Cuadrícula $8\times8$](/Análisis%20de%20Algoritmos%20/Algoritmo1-Adoquinamiento/Images/Ejemplo8x8.png)
 
 
 ---
