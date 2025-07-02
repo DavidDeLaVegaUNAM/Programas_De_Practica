@@ -3,9 +3,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Primera sección: Funciones de adoquinamiento.
-
-def colocar_azulejos(x1, y1, x2, y2, x3, y3, contador_azulejos, cuadricula):
+def colocar_azulejos_y_actualizar_contador(x1, y1, x2, y2, x3, y3, contador_azulejos, cuadricula):
     contador_azulejos += 1
     cuadricula[x1][y1] = contador_azulejos
     cuadricula[x2][y2] = contador_azulejos
@@ -124,4 +122,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
